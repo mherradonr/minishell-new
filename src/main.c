@@ -6,7 +6,7 @@
 /*   By: marherra <marherra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: Invalid date        by ***********       #+#    #+#             */
-/*   Updated: 2024/09/18 20:49:10 by marherra         ###   ########.fr       */
+/*   Updated: 2024/09/23 16:31:19 by marherra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int	main(int argn, char **argv, char **env)
 	if (argn > 1 || argv[1])
 		return (printf("Error: bad number of arguments\n"), 0);
 	print_minishell();
-	// is_signal();
+	//is_signal();
 	
 	// ctr c - inter - new line; no inter - se sale y return 130
 	// ctr d - inter - se sale; no int - se sale y return 0

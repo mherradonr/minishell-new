@@ -6,7 +6,7 @@
 /*   By: marherra <marherra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: Invalid date        by ***********       #+#    #+#             */
-/*   Updated: 2024/09/18 20:19:18 by marherra         ###   ########.fr       */
+/*   Updated: 2024/09/23 16:32:36 by marherra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@
 # define WAIT "waitpid error"
 # define ENV "env error"
 
-volatile int sig;
+extern volatile int sig;
 
 typedef struct s_arguments
 {
